@@ -10,6 +10,10 @@ import SwiftUI
 @available(iOS 15.0, *)
 public struct SampleButton: View {
   let title: String
+  
+  public init(title: String) {
+    self.title = title
+  }
   public var body: some View {
       Button {
         print("pressed the SPM button")
