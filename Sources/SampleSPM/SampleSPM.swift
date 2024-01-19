@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 public class SampleSPM {
-  
+  /// need public init to use object
   public init() {
     
   }
