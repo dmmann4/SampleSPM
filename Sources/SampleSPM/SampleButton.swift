@@ -8,9 +8,9 @@
 import SwiftUI
 
 @available(iOS 15.0, *)
-struct SampleButton: View {
+public struct SampleButton: View {
   let title: String
-  var body: some View {
+  public var body: some View {
       Button {
         print("pressed the SPM button")
       } label: {
